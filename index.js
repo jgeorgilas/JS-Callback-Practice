@@ -2,7 +2,7 @@
 const inventory = newInventory();
 move(inventory).to(0, 0);
 
-const character = newImage("green-character/static.gif");
+const character = newImage("assets/green-character/static.gif");
 
 function handleDirectionChange(direction) {
   if (direction === null) {
