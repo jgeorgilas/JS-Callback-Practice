@@ -1,12 +1,3 @@
-let firstAnswer  = window.prompt('Please select a character? Gnome, Tree or Pillar')
-if(firstAnswer === 'Tree'){
- //Need to add code to switch the green character to a tree   
-} 
-else if(firstAnswer === 'gnome') {
-  // I can keep the default settings
-}else (firstAnswer === 'Pillar') {
-// change to pillar
-}
 
 const inventory = newInventory();
 move(inventory).to(0, 0);
